@@ -1,21 +1,114 @@
-.navbar {
-    background-color: blue !important;
-    font-weight: 1000;
-    text-transform: uppercase;
+
+#services h2 {
+    background-color: silver;
+    color: white;
 }
 
-.navbar a {
-    color: yellow !important;
-    opacity: .5;
+p {
+    font-size: 25px;
+    color: black;
+    background-color: lavender;
+}
+
+.btn {
+    transition: all 300ms ease-in-out;
+}
+
+.btn:hover {
+    background-color: #82D3E2;
+    color: white;
+    border: 1px solid lavender;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+ul, li {
+    list-style: none;
+    display: inline-block;
     
 }
 
-.navbar a:hover {
-    color: purple !important;
-    opacity: 1;
+a {
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+    
 }
 
-#services h2 {
-    background-color: blue;
-    color: white;
+a:hover {
+    text-decoration: underline !important;
 }
+    
+
+a:visited {
+    color: #8CE2F4 !important;
+}
+
+h1, h4 {
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* NAVBAR styles */
+.navbar {
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+.navbar a {
+    color: black !important;
+}
+
+.navbar a:hover {
+    color: #F1E4FC !important;
+    text-transform: none !important;
+}
+
+/* HEADER styles */
+.header {
+    height: 800px;
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    background: lavender;
+}
+
+.header img {
+    height: 400px;
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    
+}
+.header h1 {
+    color: black !important;
+}
+
+.header button {
+    border-radius: 0;
+}
+
+/* SERVICES Styles */
+.services {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.services h2, .services h4 {
+    color: #DC623B;
+    font-size: 25px;
+    text-decoration: wavy;
+}
+
+.services p {
+    background-color: #91C9F5;
+    color: black;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
